@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Imprima
+- Font Author: Copyright 2012 The Imprima Project Authors (https://github.com/etunni/imprima), with Reserved Font Name "Imprima"
+- Font Source: https://fonts.gstatic.com/s/imprima/v18/VEMxRoN7sY3yuy-7-oWHyDzktPo.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
