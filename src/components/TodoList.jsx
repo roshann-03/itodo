@@ -13,8 +13,9 @@ const TodoList = ({ todos, setTodos }) => {
   };
 
   return (
-    <div className="container w-full min-h-screen bg-black flex justify-center">
-      <div className="todo-list rounded w-[60%] bg-gradient-to-r from-slate-900 via-slate-950 to-slate-900 p-5 h-full">
+    <div className="container w-full min-h-screen bg-black ">
+      <h1 className="text-center text-3xl pt-5 font-semibold mb-5 text-yellow-500">Todo List</h1>
+      <div className="todo-list rounded w-[60%] mx-auto bg-gradient-to-r from-slate-900 via-slate-950 to-slate-900 p-5 h-full">
         <ul className="flex flex-col gap-5">
           {todos.length > 0 ? (
             todos.map((todo, idx) => {
@@ -30,7 +31,7 @@ const TodoList = ({ todos, setTodos }) => {
                         <span className="time">{todo.date}</span>
 
                         <div className="relative inline-flex  group">
-                          <div className="absolute transitiona-all duration-1000 opacity-0 -inset-px bg-gradient-to-r from-[#f3d44e] via-[#f1a500] to-[#f17a03] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
+                          <div className="absolute transition-all duration-1000 opacity-0 -inset-px bg-gradient-to-r from-[#f3d44e] via-[#f1a500] to-[#f17a03] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
                           <button
                             onClick={() => handleEdit(todo.id)}
                             title="Get quote now"

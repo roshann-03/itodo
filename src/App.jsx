@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Edit from "./components/Edit";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import About from "./components/About";
 
 const App = () => {
   const [todos, setTodos] = useState(
@@ -17,6 +18,7 @@ const App = () => {
     <Navbar /> 
     <Routes>
       <Route path="/" element={<Home />}> </Route>
+      <Route path="/about" element={<About />}></Route>
       <Route path="/make" element={<TodoForm todos={todos} setTodos={setTodos} />}></Route>
       <Route path="/todos" element={<TodoList todos={todos} setTodos={setTodos}  />}> </Route>  
       <Route path="/edit/:id" element={<Edit todos={todos} setTodos={setTodos}  />}> </Route>  

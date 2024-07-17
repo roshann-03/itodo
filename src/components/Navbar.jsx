@@ -7,9 +7,9 @@ const Navbar = () => {
           iTodos
         </h1>
       <div className="links flex gap-4 text-normal">
-        <Link to={"/"} className=' hover:text-yellow-300' >Home</Link>
-        <Link to= {"/todos"} className=' hover:text-yellow-300' >My Todos</Link>
-        <Link to={"/make"} className=' hover:text-yellow-300 ' >Make Todo</Link>
+        <Link to={"/"} className=' hover:bg-yellow-500 hover:text-slate-950 hover:rounded-xl transition-all duration-300 ease-in-out border border-transparent hover:border px-3' >Home</Link>
+        <Link to= {"/todos"} className=' hover:bg-yellow-500 hover:text-slate-950 hover:rounded-xl transition-all duration-300 ease-in-out border border-transparent hover:border px-3' >Todos</Link>
+        <Link to={"/make"} className=' hover:bg-yellow-500 hover:text-slate-950 hover:rounded-xl transition-all duration-300 ease-in-out border border-transparent hover:border px-3' >Add todo</Link>
       </div>
     </nav>
   )
