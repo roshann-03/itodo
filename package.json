@@ -1,12 +1,11 @@
 {
-  "homepage": "https://roshann-03.github.io/iTodo",
+  "homepage": "https://roshann-03.github.io/itodo",
   "name": "itodo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predoploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -30,5 +29,10 @@
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.4",
     "vite": "^5.3.1"
-  }
+  },
+  "description": "A basic Todo App in which you can add, delete and edit todos. This app utilized React and Tailwind.",
+  "main": "postcss.config.js",
+  "author": "",
+  "license": "ISC",
+  "keywords": []
 }
